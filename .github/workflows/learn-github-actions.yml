@@ -11,4 +11,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: bash -c 'echo Yes this is bash $BASH_VERSION'
+      - run: bash -c 'env'
 
